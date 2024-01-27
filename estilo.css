@@ -1,6 +1,7 @@
-html{
+html {
     height: 100%;
 }
+
 body {
     background-color: #c5c4c4;
     margin: 0;
@@ -17,7 +18,7 @@ body {
     color: #385555;
 }
 
-.list-wrapper{
+.list-wrapper {
     background-color: white;
     width: 90%;
     max-width: 500px;
@@ -27,31 +28,35 @@ body {
     box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
 }
 
-.list-item{
+.list-item {
     display: flex;
     border-bottom: 1px solid #ccc;
     padding: 16px;
 }
-.list{
+
+.list {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.list-item__imagem img{
+.list-item__imagem img {
     width: 80px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
+
 .list-item__content {
     padding: 0 20px;
     flex-grow: 1;
 }
-.list-item__name{
+
+.list-item__name {
     font-size: 24px;
     color: #385555;
     margin: 0;
 }
-.list-item__email{
+
+.list-item__email {
     color: #aaa;
     margin: 5px 0 0;
 }
@@ -60,7 +65,14 @@ body {
     background-color: #e8e8e8;
 }
 
-.list-item__action{
+.list-item__action {
     display: flex;
-    gap: 8px;
+    gap: 16px;
+    align-items: center;
+    opacity: 0;
+
+}
+
+.list-item:hover .list-item__action {
+    opacity: 0.3;
 }
