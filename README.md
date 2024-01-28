@@ -16,7 +16,7 @@ O objetivo deste projeto é criar uma lista de contatos utilizando uma abordagem
 
 ## Captura de Tela
 
-![Captura de Tela do Site](screenshots/screenshot.png)
+![Captura de Tela do Site](imagens/Monica_2024-01-28_20-15-48.png)
 
 
 
