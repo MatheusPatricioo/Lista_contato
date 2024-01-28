@@ -12,8 +12,6 @@ O objetivo deste projeto é criar uma lista de contatos utilizando uma abordagem
 - Layout simples e funcional.
 - Utilização de técnicas básicas de HTML5 e CSS para criar uma lista de contatos eficaz.
 
-## Imagem do projeto
-
 ## Captura de Tela
 
 ![Captura de Tela do Site](imagens/Monica_2024-01-28_20-15-48.png)
